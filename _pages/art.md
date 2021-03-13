@@ -13,18 +13,9 @@ description: A growing collection of my favorite art projects.
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 
-<div class="bg-image hover-overlay">
-  <img src="https://mdbootstrap.com/img/new/standard/city/053.jpg" class="w-100" />
-  <div
-    class="mask"
-    style="
-      background: linear-gradient(
-        45deg,
-        rgba(29, 236, 197, 0.5),
-        rgba(91, 14, 214, 0.5) 100%
-      );
-    "></div>
-</div>
+<!-- Hoverable -->
+<img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20(132).jpg" class="img-fluid rounded-circle hoverable"
+  alt="hoverable">
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

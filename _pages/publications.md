@@ -12,13 +12,13 @@ nav: true
 {% for pub in publications %}
 <div class="pubitem">
   <div class="pubtitle">
-    {{ pub.title }}
+    <b>{{ pub.title }}</b>
   </div>
   <div class="pubauthors">
-    {{ pub.authors }}
+    <font size="-2">{ pub.authors }}</font>
   </div>
   <div class="pubinfo">
-    {{ pub.publication }}, {{ pub.year}}
+    {<font size="-2">{{ pub.publication }}, {{ pub.year}}</font>
   </div>
 </div>
 {% endfor %}

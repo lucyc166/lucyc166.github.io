@@ -1,6 +1,4 @@
 ---
-<style>
-.rgba-red-strong{
 layout: page
 title: art
 permalink: /art/
@@ -10,15 +8,17 @@ nav: true
 importance: 1
 
 description: A growing collection of my favorite art projects.
-}
-<style/>
+---
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 
-<!-- Hoverable -->
-<img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20(132).jpg" class="img-fluid rounded-circle hoverable"
-  alt="hoverable">
+<div class="view overlay">
+    <img src="https://mdbootstrap.com/img/Photos/Others/forest-sm.jpg" class="img-fluid " alt="smaple image">
+    <div class="mask flex-center rgba-red-strong">
+        <p class="white-text">Strong overlay</p>
+    </div>
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

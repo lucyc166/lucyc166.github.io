@@ -6,6 +6,25 @@ description: publications by categories in reversed chronological order. generat
 years: [1956, 1950, 1935, 1905]
 nav: true
 ---
+.pubitem {
+  margin: 2em 0;
+  line-height: 1em;
+}
+
+.pubtitle {
+  margin-bottom: .5em;
+  line-height: 1.2em;
+  font-weight: bold;
+}
+
+.pubauthors, .pubinfo {
+  font-size: 75%;
+  margin-bottom: .75em;
+}
+
+.publinks {
+  font-size: 75%;
+}
 
 <h1 class="mt-4">Publications</h1>
 {% assign publications = site.publications | sort: "year" | reverse %}
@@ -22,3 +41,8 @@ nav: true
   </div>
 </div>
 {% endfor %}
+
+<div class="publinks">
+  <a href="/download/{{ pub.slug}}.pdf"><i class="far fa-file-pdf"></i> PDF</a>&nbsp;&nbsp;
+  <a href="{{pub.url}}"><i class="fas fa-link"></i> Project Page</a>
+</div>

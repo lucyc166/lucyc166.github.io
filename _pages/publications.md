@@ -15,10 +15,10 @@ nav: true
     <b>{{ pub.title }}</b>
   </div>
   <div class="pubauthors">
-    <font size="-2">{ pub.authors }}</font>
+    <font size="-2">{{ pub.authors }}</font>
   </div>
   <div class="pubinfo">
-    {<font size="-2">{{ pub.publication }}, {{ pub.year}}</font>
+    <font size="-2">{{ pub.publication }}, {{ pub.year}}</font>
   </div>
 </div>
 {% endfor %}

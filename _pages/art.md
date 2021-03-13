@@ -19,7 +19,7 @@ It's easy to include images in a flexible 3-column grid format.
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/angel1.jpeg' | relative_url }}" alt="" title="example image"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/angle2.jpeg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/angel2.jpeg' | relative_url }}" alt="" title="example image"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/angel3.jpeg' | relative_url }}" alt="" title="example image"/>

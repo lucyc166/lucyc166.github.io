@@ -24,6 +24,6 @@ nav: true
 {% endfor %}
 
 <div class="publinks">
-  <a href="/download/{{ pub.slug}}.pdf"><i class="far fa-file-pdf"></i> PDF</a>&nbsp;&nbsp;
-  <a href="{{pub.url}}"><i class="fas fa-link"></i> Project Page</a>
+  <font size="-2"><a href="/download/{{ pub.slug}}.pdf"><i class="far fa-file-pdf"></i> PDF</a>&nbsp;&nbsp;</font>
+  <font size="-2"><a href="{{pub.url}}"><i class="fas fa-link"></i> Project Page</a></font>
 </div>

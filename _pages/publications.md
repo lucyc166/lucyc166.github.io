@@ -6,27 +6,30 @@ description: publications by categories in reversed chronological order. generat
 years: [1956, 1950, 1935, 1905]
 nav: true
 ---
-.pubitem {
-  margin: 2em 0;
-  line-height: 1em;
+<style type="text/css">
+.pubteaser {
+  clear: both;
 }
 
-.pubtitle {
-  margin-bottom: .5em;
-  line-height: 1.2em;
-  font-weight: bold;
+.pubteaser a {
+  float: left;
+  margin-right: 2em;
 }
 
-.pubauthors, .pubinfo {
-  font-size: 75%;
-  margin-bottom: .75em;
+.pubteaser img {
+  width: 100px;
+  border: 1px solid black;
 }
 
 .publinks {
   font-size: 75%;
 }
 
-<h1 class="mt-4">Publications</h1>
+</style>
+
+
+
+<div class="publications">
 {% assign publications = site.publications | sort: "year" | reverse %}
 {% for pub in publications %}
 <div class="pubitem">

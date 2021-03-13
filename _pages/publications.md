@@ -7,7 +7,18 @@ years: [1956, 1950, 1935, 1905]
 nav: true
 ---
 
-<div class="publications">
-
-
+<h1 class="mt-4">Publications</h1>
+{% assign publications = site.publications | sort: "year" | reverse %}
+{% for pub in publications %}
+<div class="pubitem">
+  <div class="pubtitle">
+    {{ pub.title }}
+  </div>
+  <div class="pubauthors">
+    {{ pub.authors }}
+  </div>
+  <div class="pubinfo">
+    {{ pub.publication }}, {{ pub.year}}
+  </div>
 </div>
+{% endfor %}

@@ -10,11 +10,6 @@ importance: 1
 description: A growing collection of my favorite art projects.
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-
-
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded " src="{{ '/assets/img/angel1.jpeg' | relative_url }}" alt="" title="example image"/>

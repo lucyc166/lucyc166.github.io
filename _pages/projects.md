@@ -6,14 +6,6 @@ description: A growing collection of your cool projects.
 nav: true
 ---
 
-
-<div class="view overlay">
-    <img src="https://mdbootstrap.com/img/Photos/Others/forest-sm.jpg" class="img-fluid " alt="smaple image">
-    <div class="mask flex-center rgba-red-strong">
-        <p class="white-text">Strong overlay</p>
-    </div>
-</div>
-
 <div class="projects grid">
   {% assign sorted_projects = site.projects | sort: "importance" %}
   {% for project in sorted_projects %}

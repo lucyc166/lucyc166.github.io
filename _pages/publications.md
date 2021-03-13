@@ -6,6 +6,13 @@ description: publications by categories in reversed chronological order. generat
 years: [1956, 1950, 1935, 1905]
 nav: true
 ---
+<div class="pubteaser">
+  <div style = 'margin-left:60px;'>
+  <a href="{{pub.url}}">
+    <img src="/images/{{ pub.slug }}_small.png" alt="{{pub.slug}} publication teaser"/>
+  </a>
+  </div>
+</div>
 
 <div class="publications">
 {% assign publications = site.publications | sort: "year" | reverse %}

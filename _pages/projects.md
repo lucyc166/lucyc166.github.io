@@ -6,8 +6,15 @@ description: A growing collection of your cool projects.
 nav: true
 ---
 
-<div class="projects grid">
 
+<div class="view overlay">
+    <img src="https://mdbootstrap.com/img/Photos/Others/forest-sm.jpg" class="img-fluid " alt="smaple image">
+    <div class="mask flex-center rgba-red-strong">
+        <p class="white-text">Strong overlay</p>
+    </div>
+</div>
+
+<div class="projects grid">
   {% assign sorted_projects = site.projects | sort: "importance" %}
   {% for project in sorted_projects %}
   <div class="grid-item">
@@ -16,13 +23,12 @@ nav: true
     {% else %}
     <a href="{{ project.url | relative_url }}">
     {% endif %}
-      <div class="card hoverable">
+      <div class="view overlay">
         {% if project.img %}
-        <img src="{{ project.img | relative_url }}" alt="project thumbnail">
+        <img src="{{ project.img | relative_url }}" class = "img-fluid" alt="project thumbnail">
         {% endif %}
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">{{ project.title }}</h2>
-          <p class="card-text">{{ project.description }}</p>
+        <div class="mask flex-center rgba-red-strong>
+          <p class="white-text">Strong overlay</p>
           <div class="row ml-1 mr-1 p-0">
             {% if project.github %}
             <div class="github-icon">

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Art
-description: a project with a background image
+description: a project with a background image test
 img: /assets/img/12.jpg
 importance: 1
 ---

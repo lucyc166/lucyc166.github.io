@@ -27,7 +27,7 @@ nav: true
         {% if project.img %}
         <img src="{{ project.img | relative_url }}" class = "img-fluid" alt="project thumbnail">
         {% endif %}
-        <div class="mask flex-center rgba-red-strong>
+        <div class="mask flex-center rgba-red-strong">
           <p class="white-text">Strong overlay</p>
           <div class="row ml-1 mr-1 p-0">
             {% if project.github %}

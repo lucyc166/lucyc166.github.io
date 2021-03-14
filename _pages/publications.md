@@ -6,13 +6,6 @@ description: publications by categories in reversed chronological order. generat
 years: [1956, 1950, 1935, 1905]
 nav: true
 ---
-<div class="pubteaser">
-  <div style = 'margin-left:60px;'>
-  <a href="{{pub.url}}">
-    <img src="/images/{{ pub.slug }}_small.png" alt="{{pub.slug}} publication teaser"/>
-  </a>
-  </div>
-</div>
 
 <div class="publications">
 <div style = 'margin-right;'>
@@ -28,11 +21,11 @@ nav: true
   <div class="pubinfo">
     <font size="-2">{{ pub.publication }}, {{ pub.year}}</font>
   </div>
+  <div class="publinks">
+    <font size="-2"><a href="/download/{{pub.slug}}.pdf"><i class="far fa-file-pdf"></i> PDF</a>&nbsp;&nbsp;</font>
+    <font size="-2"><a href="{{pub.url}}"><i class="fas fa-link"></i> Project Page</a></font>
+  </div>
 </div>
 </div>
-{% endfor %}
 
-<div class="publinks">
-  <font size="-2"><a href="/download/{{ pub.slug}}.pdf"><i class="far fa-file-pdf"></i> PDF</a>&nbsp;&nbsp;</font>
-  <font size="-2"><a href="{{pub.url}}"><i class="fas fa-link"></i> Project Page</a></font>
-</div>
+{% endfor %}

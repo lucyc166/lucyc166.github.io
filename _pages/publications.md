@@ -15,6 +15,7 @@ nav: true
 </div>
 
 <div class="publications">
+<div style = 'margin-right;'>
 {% assign publications = site.publications | sort: "year" | reverse %}
 {% for pub in publications %}
 <div class="pubitem">
@@ -27,6 +28,7 @@ nav: true
   <div class="pubinfo">
     <font size="-2">{{ pub.publication }}, {{ pub.year}}</font>
   </div>
+</div>
 </div>
 {% endfor %}
 

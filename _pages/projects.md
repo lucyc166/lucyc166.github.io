@@ -47,7 +47,7 @@ nav: true
 test
 
 <div class="code projects grid">
-  {% assign sorted_projects = site.projects-code | sort: "importance" %}
+  {% assign sorted_projects = site.projects | sort: "importance" %}
   {% for project in sorted_projects %}
   <div class="grid-item">
     {% if project.redirect %}

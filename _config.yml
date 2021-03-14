@@ -90,6 +90,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  projects_code:
+    output: true
+    permalink: /code-projects/:path
   publications:
     output: true
     permalink: /publication/:name

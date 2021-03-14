@@ -1,8 +1,11 @@
 ---
 layout: default
 title: A New Method for Fancy Research
-authors: John Doe and Mary Jane
-publication: Journal of Fancy Research
-year: 2019
-doi: http://dx.doi.org/XX.XXX/
+authors: Lucy Chen, Issac Taylor, Zimi Zhang, et al 2020.
+publication: “New Observations of Near-Earth Asteroid 149537 (2003 GE42),” M.P.C. 124233
+year: 2020
+slug:
+url: MPC.Circular.pdf
+
+
 ---

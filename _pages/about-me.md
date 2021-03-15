@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-<font size="-2">Hi! I'm Lucy. I'm interested in astrophysics and cultivating equity in STEM education.
+Hi! I'm Lucy. I'm interested in astrophysics and cultivating equity in STEM education.
 
 With perpetually busy immigrant parents, I had to learn to navigate the world by myself -- from sports, to school, to college applications. From this process, I've found the power of mentorship: SO many people have shared their time to guide me to get me to where I am today.
 <br>
@@ -22,4 +22,4 @@ Such mentorship was especially useful in the field of computer science. My first
 <br>
 Thus in 2019, I was inspired to launch <a href = "https://codefycs.org/">Codefy</a>, an initiative that incorporates mentorship into computer science education while engaging teens and adults in community service. So far, our 200+ volunteers have contributed 6000+ hours in teaching and mentoring 2000+ students in computer science. We offer classes for all ages and experience levels: multiple levels of Python and Java, Scratch, Web Development, C++, all the way to Machine Learning, Linear Algebra, and Group Theory. We also run free coding workshops, hackathons, a research program, and much more, showing students how to leverage programming for social good.
 <br>
-In 2020, I was selected into the Summer Science Program for astrophysics where I conducted astrophysics research on Mars-crosser asteroid 2003 GE42 using original images from research-grade telescopes, the Virginia Aerospace Science and Technology Scholars where I studied aerospace engineering and supported the design of a Mission to Mars, and the Virginia Earth System Science Scholars program where I study NASA satellite data to understand Earth and space science. I hope to study exoplanetary systems and habitable Super-Earths to search for extraterrestrial life.</font>
+In 2020, I was selected into the Summer Science Program for astrophysics where I conducted astrophysics research on Mars-crosser asteroid 2003 GE42 using original images from research-grade telescopes, the Virginia Aerospace Science and Technology Scholars where I studied aerospace engineering and supported the design of a Mission to Mars, and the Virginia Earth System Science Scholars program where I study NASA satellite data to understand Earth and space science. I hope to study exoplanetary systems and habitable Super-Earths to search for extraterrestrial life.

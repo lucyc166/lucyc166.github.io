@@ -16,7 +16,9 @@ social: true  # includes social icons at the bottom of the page
 
 Hi! I'm Lucy. I'm interested in astrophysics and cultivating equity in STEM education.
 
-With perpetually busy immigrant parents, I had to learn to navigate the world by myself -- from sports, to school, to college applications. From this process, I've found the power of mentorship: SO many people have shared their time to guide me to get me to where I am today.
+With perpetually busy immigrant parents, I had to learn to navigate the world by myself -- from sports, to school, to college applications.
+<br>
+From this process, I've found the power of mentorship: SO many people have shared their time to guide me to get me to where I am today.
 <br>
 Such mentorship was especially useful in the field of computer science. My first impression of the field was that it was dry and isolating. However, with support from computer science undergrads and Ph.D. students at AI4ALL, I was shown to the engaging and empowering side of coding. Coming home, I guided my younger brother to code several projects in Python.
 <br>

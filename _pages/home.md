@@ -18,4 +18,5 @@ Hi! I'm Lucy. I'm interested in researching exoplanets and cultivating equity in
 
 With perpetually busy immigrant parents, I had to learn to navigate the world by myself -- from sports, to school, to college applications.
 <br>
+
 From this process, I've found the power of mentorship: SO many people have shared their time to guide me to get me to where I am today. <u><a href = "https://www.lucychen.tk/about">Read more about my story here →</a></u>

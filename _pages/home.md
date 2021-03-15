@@ -16,6 +16,8 @@ social: true  # includes social icons at the bottom of the page
 
 Hi! I'm Lucy. I'm interested in researching exoplanets and cultivating equity in STEM education.
 
+How did I get here?
+
 With perpetually busy immigrant parents, I had to learn to navigate the world by myself -- from sports, to school, to college applications.
 <br>
 

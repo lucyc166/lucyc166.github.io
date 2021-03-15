@@ -2,7 +2,6 @@
 layout: page
 title: art
 permalink: /art/
-description: a project with a background image test
 img: /assets/img/12.jpg
 nav: true
 importance: 1

@@ -18,7 +18,7 @@ Hi! I'm Lucy. I'm interested in astrophysics and cultivating equity in STEM educ
 
 With perpetually busy immigrant parents, I had to learn to navigate the world by myself -- from sports, to school, to college applications. From this process, I've found the power of mentorship: SO many people have shared their time to guide me to get me to where I am today.
 <br>
-Such mentorship was especially useful in the field of computer science. My first impression of of the field was that it was dry and isolating. However, with support from computer science undergrads and Ph.D students at AI4ALL, I was shown to the engaging and empowering side of coding. Coming home, I guided my younger brother to code several projects in Python.
+Such mentorship was especially useful in the field of computer science. My first impression of the field was that it was dry and isolating. However, with support from computer science undergrads and Ph.D. students at AI4ALL, I was shown to the engaging and empowering side of coding. Coming home, I guided my younger brother to code several projects in Python.
 <br>
 Thus in 2019, I was inspired to launch <a href = "https://codefycs.org/">Codefy</a>, an initiative that incorporates mentorship into computer science education while engaging teens and adults in community service. So far, our 200+ volunteers have contributed 6000+ hours in teaching and mentoring 2000+ students in computer science. We offer classes for all ages and experience levels: multiple levels of Python and Java, Scratch, Web Development, C++, all the way to Machine Learning, Linear Algebra, and Group Theory. We also run free coding workshops, hackathons, a research program, and much more, showing students how to leverage programming for social good.
 <br>

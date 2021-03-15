@@ -93,6 +93,9 @@ collections:
   projects_code:
     output: true
     permalink: /code-projects/:path
+  codefy:
+    output: true
+    permalink: /codefy/:path
   publications:
     output: true
     permalink: /publication/:name

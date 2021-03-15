@@ -2,13 +2,12 @@
 layout: about
 title: about
 permalink: /about
-description: Aspiring astrophysicist, STEM advocate.🌎💻 Want to chat? <a href="mailto:lucychen@codefycs.org">Email me here!</a>📬
+description: Aspiring astrophysicist, STEM education advocate.🌎💻 Want to chat? <a href="mailto:lucychen@codefycs.org">Email me here!</a>📬
 
 profile:
   align: right
   image: lucychen.jpg
-  address: >
-    <p>McLean, Virginia</p>
+  address:
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"

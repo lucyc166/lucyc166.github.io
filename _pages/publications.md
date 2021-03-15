@@ -28,10 +28,10 @@ nav: true
     {% if pub.url %}
     <font size="-2"><a href="{{pub.url}}"><i class="fas fa-link"></i> Project Page</a></font>
     {% else %}
-    <font size="-2"> </font>
+    <font size="-2"><a href="{{pub.url}}"><i class="fas fa-link"></i> TEST</a></font>
     {% endif %}
   </div>
-  
+  <br></br>
 </div>
 </div>
 

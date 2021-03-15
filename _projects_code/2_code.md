@@ -1,7 +1,8 @@
 ---
 layout: page
-title: AI4ALL
-description: Machine learning leaf recognition program.
-img: /assets/img/ai4all3.jpg
+title: SSP
+description: Computer science in astrophysics and orbit determination.
+img: /assets/img/observation5.jpg
 importance: 1
 ---
+wip, check back later!

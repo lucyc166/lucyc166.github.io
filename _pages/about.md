@@ -15,9 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! I'm Lucy. I'm interested in astrophysics and cultivating equity in STEM education.
-
-How did I get here?
+Hi! I'm Lucy. I'm interested in astrophysics and cultivating equity in STEM education. How did I get here?
 
 With perpetually busy immigrant parents, I had to learn to navigate the world by myself -- from sports, to school, to college applications. From this process, I've found the power of mentorship: SO many people have shared their time to guide me to get me to where I am today.
 <br>

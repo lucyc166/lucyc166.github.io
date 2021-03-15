@@ -84,7 +84,7 @@ test
 </div>
 
 Coding Projects
-<div class="code projects grid">
+<div class="code projects grid fluid">
   {% assign sorted_projects = site.projects_code | sort: "importance" %}
   {% for project in sorted_projects %}
   <div class="grid-item">

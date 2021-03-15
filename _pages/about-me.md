@@ -3,6 +3,7 @@ layout: about
 title: about
 permalink: /about
 description: Aspiring astrophysicist, STEM education advocate.🌎💻 Want to chat? <a href="mailto:lucychen@codefycs.org">Email me here!</a>📬
+nav: true
 
 profile:
   align: right

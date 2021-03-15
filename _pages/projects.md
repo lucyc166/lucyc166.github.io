@@ -83,8 +83,7 @@ test
 
 </div>
 
-test
-
+Coding Projects
 <div class="code projects grid">
   {% assign sorted_projects = site.projects_code | sort: "importance" %}
   {% for project in sorted_projects %}
@@ -99,7 +98,7 @@ test
         <img src="{{ project.img | relative_url }}" class = "img-fluid" alt="project thumbnail">
         {% endif %}
         <div class="mask flex-center rgba-red-strong">
-          <p class="white-text">Strong overlay</p>
+          <p class="white-text">{{project.title}}</p>
           <div class="row ml-1 mr-1 p-0">
             {% if project.github %}
             <div class="github-icon">

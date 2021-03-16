@@ -31,3 +31,9 @@ nav: true
 </div>
 
 {% endfor %}
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded" src="{{ '/assets/img/cactus.png' | relative_url }}" alt=""/>
+    </div>
+</div>

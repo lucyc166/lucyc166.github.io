@@ -1,10 +1,10 @@
 ---
 layout: default
-title: 🔬 Japanese Experience: Distancing Ingrained in Culture
-authors: Lucy Chen
-publication: Connection Newspapers (online and in-print)
-year: April 2020
-slug: MPC.Circular.pdf
+title: 💫 Orbit Determination of the Asteroid 2003 GE42
+authors: Lucy Chen, Issac Taylor, Zimi Zhang.
+publication: The Summer Science Program for Astrophysics at CU Boulder
+year: July 2020
+slug: Orbital.Determination.pdf
 url:
 
 ---

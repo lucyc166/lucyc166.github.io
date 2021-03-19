@@ -5,6 +5,6 @@ authors: Lucy Chen
 publication: Connection Newspapers (online and in-print)
 year: April 2020
 slug:
-url: https://123moviesfree.net/movie/the-blue-lagoon-9888/watching.html
+url: http://www.connectionnewspapers.com/news/2020/apr/14/opinion-commentary-japanese-experience-distancing-/
 
 ---

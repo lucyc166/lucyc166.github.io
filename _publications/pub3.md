@@ -1,10 +1,10 @@
 ---
 layout: default
-title: 💫 Japanese Experience&#58; Distancing Ingrained in Culture
-authors: Lucy Chen, Isaac Taylor, Zimi Zhang.
-publication: The Summer Science Program for Astrophysics at CU Boulder
-year: July 2020
-slug: Orbital.Determination.pdf
-url:
+title: 🔬Japanese Experience: Distancing Ingrained in Culture
+authors: Lucy Chen
+publication: Connection Newspapers (online and in-print)
+year: April 2020
+slug:
+url: http://www.connectionnewspapers.com/news/2020/apr/14/opinion-commentary-japanese-experience-distancing-/
 
 ---

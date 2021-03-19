@@ -1,9 +1,9 @@
 ---
 layout: default
-title: 🌠 New Observations of Near-Earth Asteroid 149537 (2003 GE42)
-authors: Lucy Chen, Isaac Taylor, Zimi Zhang, et al 2020.
-publication: Minor Planet Center Circular 124233
-year: August 2020
+title: 🔬 Japanese Experience: Distancing Ingrained in Culture
+authors: Lucy Chen
+publication: Connection Newspapers (online and in-print)
+year: April 2020
 slug: MPC.Circular.pdf
 url:
 

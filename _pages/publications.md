@@ -24,7 +24,7 @@ nav: true
   <div class="publinks">
     {% if pub.url %}
     <font size="-2"><a href="{{ pub.url}}"><i class="fas fa-link"></i> Website </a></font>
-    {% end if %}
+    {% endif %}
     <font size="-2"><a href="/assets/pdf/{{ pub.slug}}"><i class="far fa-file-pdf"></i> PDF</a>&nbsp;&nbsp;</font>
 
 

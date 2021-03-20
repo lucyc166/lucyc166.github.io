@@ -8,7 +8,7 @@ nav: true
 
 
 <div class="row">
-  {% assign sorted_projects = site.codefy | sort: "importance" %}
+  {% assign sorted_projects = site.projects | sort: "importance" %}
   {% for project in sorted_projects %}
     <div class="col-md-3">
       {% if project.redirect %}

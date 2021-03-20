@@ -6,7 +6,7 @@ description: A growing collection of your cool projects.
 nav: true
 ---
 
-<font size ="+2"<b>Community Projects</b></font>
+<font size ="+2"><b>Community Projects</b></font>
 <div class="code projects grid fluid">
   {% assign sorted_projects = site.projects | sort: "importance" %}
   {% for project in sorted_projects %}
@@ -45,7 +45,7 @@ nav: true
 
 </div>
 
-<font size ="+2"<b>Codefy Projects</b></font>
+<font size ="+2"><b>Codefy Projects</b></font>
 <div class="code projects grid fluid">
   {% assign sorted_projects = site.codefy | sort: "importance" %}
   {% for project in sorted_projects %}
@@ -84,7 +84,7 @@ nav: true
 
 </div>
 
-<font size ="+2"<b>Coding Projects</b></font>
+<font size ="+2"><b>Coding Projects</b></font>
 <div class="code projects grid fluid">
   {% assign sorted_projects = site.projects_code | sort: "importance" %}
   {% for project in sorted_projects %}

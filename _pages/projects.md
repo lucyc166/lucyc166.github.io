@@ -61,7 +61,7 @@ nav: true
         {% endif %}
         <div class="mask flex-center rgba-red-strong">
           <p class="white-text">{{project.title}}</p>
-          <div class="row ml-1 mr-1 p-0">
+          <div class="row ml-0 mr-0 p-0">
             {% if project.github %}
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="Code Repository">

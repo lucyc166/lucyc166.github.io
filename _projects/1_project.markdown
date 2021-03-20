@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: /assets/img/12.jpg
+title: McLean Debate Academy
+description:
+img: /assets/img/debate.jpg
 importance: 1
 ---
 

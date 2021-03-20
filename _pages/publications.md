@@ -23,10 +23,12 @@ nav: true
   </div>
   <div class="publinks">
     {% if pub.link %}
-    <font size="-2"><a href="{{ pub.link}}"><i class="fas fa-link"></i> Website </a></font>
+      <font size="-2"><a href="{{ pub.link}}"><i class="fas fa-link"></i> Website </a></font>
     {% endif %}
-    {% if pub.slug %}
-    <font size="-2"><a href="/assets/pdf/{{ pub.slug}}"><i class="far fa-file-pdf"></i> PDF</a>&nbsp;&nbsp;</font>
+    {% if pub.slug == false %}
+      <font size="-2"> </font>
+    {% else %}
+      <font size="-2"><a href="/assets/pdf/{{ pub.slug}}"><i class="far fa-file-pdf"></i> PDF </a>&nbsp;&nbsp;</font>
     {% endif %}
 
 

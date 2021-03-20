@@ -5,8 +5,8 @@ permalink: /projects/
 description: A growing collection of your cool projects.
 nav: true
 ---
-
-[font size ="+2"><b>Community Projects</b></font>
+<div style="text-align:center">
+<font size ="+2"><b>Community Projects</b></font>
 <div class="code projects grid fluid">
   {% assign sorted_projects = site.projects | sort: "importance" %}
   {% for project in sorted_projects %}
@@ -42,7 +42,7 @@ nav: true
     </a>
   </div>
 {% endfor %}
-
+</div>
 </div>
 
 <b>Codefy Projects</b>

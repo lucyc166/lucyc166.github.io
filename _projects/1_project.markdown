@@ -2,7 +2,7 @@
 layout: page
 title: McLean Debate Academy
 description:
-img: /assets/img/debate.jpg
+img: /assets/img/debate.png
 importance: 1
 ---
 

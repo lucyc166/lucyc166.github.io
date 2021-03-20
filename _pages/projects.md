@@ -6,7 +6,8 @@ description: A growing collection of your cool projects.
 nav: true
 ---
 
-<div class="projects grid">
+<font size ="+2"<b>Community Projects</b></font>
+<div class="code projects grid fluid">
   {% assign sorted_projects = site.projects | sort: "importance" %}
   {% for project in sorted_projects %}
   <div class="grid-item">
@@ -20,7 +21,7 @@ nav: true
         <img src="{{ project.img | relative_url }}" class = "img-fluid" alt="project thumbnail">
         {% endif %}
         <div class="mask flex-center rgba-red-strong">
-          <p class="white-text">Strong overlay</p>
+          <p class="white-text">{{project.title}}</p>
           <div class="row ml-1 mr-1 p-0">
             {% if project.github %}
             <div class="github-icon">
@@ -43,9 +44,9 @@ nav: true
 {% endfor %}
 
 </div>
-test
 
-<div class="code projects grid">
+<font size ="+2"<b>Codefy Projects</b></font>
+<div class="code projects grid fluid">
   {% assign sorted_projects = site.codefy | sort: "importance" %}
   {% for project in sorted_projects %}
   <div class="grid-item">
@@ -59,7 +60,7 @@ test
         <img src="{{ project.img | relative_url }}" class = "img-fluid" alt="project thumbnail">
         {% endif %}
         <div class="mask flex-center rgba-red-strong">
-          <p class="white-text">Strong overlay</p>
+          <p class="white-text">{{project.title}}</p>
           <div class="row ml-1 mr-1 p-0">
             {% if project.github %}
             <div class="github-icon">
@@ -83,7 +84,7 @@ test
 
 </div>
 
-Coding Projects
+<font size ="+2"<b>Coding Projects</b></font>
 <div class="code projects grid fluid">
   {% assign sorted_projects = site.projects_code | sort: "importance" %}
   {% for project in sorted_projects %}

@@ -27,7 +27,7 @@ nav: true
     {% endif %
     {% if pub.slug %}}
     <font size="-2"><a href="/assets/pdf/{{ pub.slug}}"><i class="far fa-file-pdf"></i> PDF</a>&nbsp;&nbsp;</font>
-    {% end if %}
+    {% endif %}
 
 
   </div>

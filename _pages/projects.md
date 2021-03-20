@@ -6,7 +6,7 @@ description: A growing collection of your cool projects.
 nav: true
 ---
 
-<b>Community Projects</b>
+[font size ="+2"><b>Community Projects</b></font>
 <div class="code projects grid fluid">
   {% assign sorted_projects = site.projects | sort: "importance" %}
   {% for project in sorted_projects %}

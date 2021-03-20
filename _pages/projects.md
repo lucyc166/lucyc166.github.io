@@ -5,6 +5,31 @@ permalink: /projects/
 description: A growing collection of your cool projects.
 nav: true
 ---
+
+
+<div class="row">
+  {% assign sorted_projects = site.codefy | sort: "importance" %}
+  {% for project in sorted_projects %}
+    <div class="col-md-3">
+      {% if project.redirect %}
+      <a href="{{ project.redirect }}" target="_blank">
+      {% else %}
+      <a href="{{ project.url | relative_url }}">
+      {% endif %}
+
+      <div class="view overlay">
+        {% if project.img %}
+        <img src="{{ project.img | relative_url }}" class = "img-fluid" alt="project thumbnail">
+        {% endif %}
+        <div class="mask flex-center rgba-red-strong">
+          <p class="white-text">{{project.title}}</p>
+        </div>
+      </div>
+      </a>
+  </div>
+{% endfor %}
+
+</div>
 <div style="text-align:center">
 <font size ="+2"><b>Community Projects</b></font>
 <div class="code projects grid fluid">
@@ -43,7 +68,8 @@ nav: true
   </div>
 {% endfor %}
 </div>
-</div>
+
+
 
 <b>Codefy Projects</b>
 <div class="code projects grid fluid">
@@ -61,7 +87,7 @@ nav: true
         {% endif %}
         <div class="mask flex-center rgba-red-strong">
           <p class="white-text">{{project.title}}</p>
-          <div class="row ml-20 mr-20 p-20">
+          <div class="row ml-1 mr-1 p-0">
             {% if project.github %}
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="Code Repository">
@@ -81,7 +107,6 @@ nav: true
     </a>
   </div>
 {% endfor %}
-
 </div>
 
 <b>Coding Projects</b>

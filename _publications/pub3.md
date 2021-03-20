@@ -5,5 +5,6 @@ authors: Lucy Chen
 publication: Connection Newspapers (online and in-print)
 year: April 2020
 link: http://www.connectionnewspapers.com/news/2020/apr/14/opinion-commentary-japanese-experience-distancing-/
+slug: false
 
 ---

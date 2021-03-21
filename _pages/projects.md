@@ -57,6 +57,31 @@ nav: true
   </div>
 </div>
 
+<div style="text-align:center">
+<font size ="+2"><b>Coding Projects</b></font>
+  <div class="row">
+    {% assign sorted_projects = site.projects_code | sort: "importance" %}
+    {% for project in sorted_projects %}
+      <div class="col-xl-4 mt-3">
+        {% if project.redirect %}
+        <a href="{{ project.redirect }}" target="_blank">
+        {% else %}
+        <a href="{{ project.url | relative_url }}">
+        {% endif %}
+
+        <div class="view overlay">
+          {% if project.img %}
+          <img src="{{ project.img | relative_url }}" class = "img-fluid" alt="project thumbnail">
+          {% endif %}
+          <div class="mask flex-center rgba-red-strong">
+            <p class="white-text">{{project.title}}</p>
+          </div>
+        </div>
+        </a>
+    </div>
+  {% endfor %}
+  </div>
+</div>
 
 
 <b>Coding Projects</b>

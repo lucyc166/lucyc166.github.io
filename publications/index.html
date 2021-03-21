@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Lucy  Chen | blank</title>
+<title>Lucy  Chen | publications</title>
 <meta name="description" content="">
 
 <!-- Open Graph -->
@@ -30,7 +30,7 @@
 
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/publications/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -95,7 +95,7 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
               
@@ -147,9 +147,11 @@
           
           
           
-          <li class="nav-item ">
+          <li class="nav-item active">
               <a class="nav-link" href="/publications/">
                 publications
+                
+                <span class="sr-only">(current)</span>
                 
               </a>
           </li>
@@ -178,64 +180,140 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>blog</h1>
-    <h2>living life with Lucy</h2>
+  <header class="post-header">
+    <h1 class="post-title">publications</h1>
+    <p class="post-description"></p>
+  </header>
+
+  <article>
+    <div id="image-cover-modal" class="image-cover-modal">
+  <img id="image-cover-image" class="image-cover-modal-content">
+  <div id="image-cover-caption"></div>
+</div>
+<script>
+// Get the DOM
+var modal = document.getElementById('image-cover-modal');
+var modalImg = document.getElementById("image-cover-image");
+var captionText = document.getElementById("image-cover-caption");
+var span = document.getElementsByClassName("image-cover-close")[0];
+
+// When the user clicks on <span> (x), close the modal
+modal.onclick = function() {
+    this.classList.remove("model-shown");
+}
+
+var i;
+for (i = 0; i < document.images.length; i++) {
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.images[i];
+
+    img.onclick = function(){
+        modal.classList.add("model-shown");
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+}
+</script>
+
+    <div class="publications">
+<div style="margin-right;">
+
+
+<div class="pubitem">
+  <div class="pubtitle">
+    <b>💫 Orbit Determination of the Asteroid 2003 GE42</b>
   </div>
-
-
-  Hmmm...it's a bit deserted in here. Why not try another page?
-  <div class="row">
-      <div class="col-sm mt-3 mt-md-0">
-          <img class="img-fluid rounded" src="/assets/img/cactus.png" alt=""/>
-      </div>
+  <div class="pubauthors">
+    <font size="-2">Lucy Chen, Isaac Taylor, Zimi Zhang.</font>
   </div>
+  <div class="pubinfo">
+    <font size="-2">The Summer Science Program for Astrophysics at CU Boulder, July 2020</font>
+  </div>
+  <div class="publinks">
+    
+    
+      <font size="-2"><a href="/assets/pdf/Orbital.Determination.pdf"><i class="far fa-file-pdf"></i> PDF </a>&nbsp;&nbsp;</font>
+    
 
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/twitter/">Twitter</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2018/distill/">a distill-style blog post</a></h3>
-        <p class="post-meta">December 22, 2018</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-  </ul>
-
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blank">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blank - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blank - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
+  </div>
+  <br />
+</div>
 
 
+<div class="pubitem">
+  <div class="pubtitle">
+    <b>💫 Orbit Determination of the Asteroid 2003 GE42 -test</b>
+  </div>
+  <div class="pubauthors">
+    <font size="-2">Lucy Chen, Isaac Taylor, Zimi Zhang.</font>
+  </div>
+  <div class="pubinfo">
+    <font size="-2">The Summer Science Program for Astrophysics at CU Boulder, July 2020</font>
+  </div>
+  <div class="publinks">
+    
+    
+      <font size="-2"><a href="/assets/pdf/Orbital.Determination.pdf"><i class="far fa-file-pdf"></i> PDF </a>&nbsp;&nbsp;</font>
+    
+
+
+  </div>
+  <br />
+</div>
+
+
+<div class="pubitem">
+  <div class="pubtitle">
+    <b>🌠 New Observations of Near-Earth Asteroid 149537 (2003 GE42)</b>
+  </div>
+  <div class="pubauthors">
+    <font size="-2">Lucy Chen, Isaac Taylor, Zimi Zhang, et al 2020.</font>
+  </div>
+  <div class="pubinfo">
+    <font size="-2">Minor Planet Center Circular 124233, August 2020</font>
+  </div>
+  <div class="publinks">
+    
+    
+      <font size="-2"><a href="/assets/pdf/MPC.Circular.pdf"><i class="far fa-file-pdf"></i> PDF </a>&nbsp;&nbsp;</font>
+    
+
+
+  </div>
+  <br />
+</div>
+
+
+<div class="pubitem">
+  <div class="pubtitle">
+    <b>🔬Japanese Experience - Distancing Ingrained in Culture</b>
+  </div>
+  <div class="pubauthors">
+    <font size="-2">Lucy Chen</font>
+  </div>
+  <div class="pubinfo">
+    <font size="-2">Connection Newspapers (online and in-print), April 2020</font>
+  </div>
+  <div class="publinks">
+    
+      <font size="-2"><a href="http://www.connectionnewspapers.com/news/2020/apr/14/opinion-commentary-japanese-experience-distancing-/"><i class="fas fa-link"></i> Website </a></font>
+    
+    
+      <font size="-2"><a href="/assets/pdf/pub3"><i class="far fa-file-pdf"></i> PDF </a>&nbsp;&nbsp;</font>
+    
+
+
+  </div>
+  <br />
+</div>
+
+
+</div></div>
+
+
+  </article>
 
 </div>
 

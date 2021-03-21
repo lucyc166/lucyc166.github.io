@@ -10,7 +10,7 @@ nav: true
 <div class="row">
   {% assign sorted_projects = site.projects_code | sort: "importance" %}
   {% for project in sorted_projects %}
-    <div class="col-xl-4">
+    <div class="col-xl-4 mt-1">
       {% if project.redirect %}
       <a href="{{ project.redirect }}" target="_blank">
       {% else %}

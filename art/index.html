@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Lucy  Chen | blank</title>
+<title>Lucy  Chen | art</title>
 <meta name="description" content="">
 
 <!-- Open Graph -->
@@ -30,7 +30,7 @@
 
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/art/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -95,7 +95,7 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
               
@@ -121,9 +121,11 @@
           
           
           
-          <li class="nav-item ">
+          <li class="nav-item active">
               <a class="nav-link" href="/art/">
                 art
+                
+                <span class="sr-only">(current)</span>
                 
               </a>
           </li>
@@ -178,64 +180,114 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>blog</h1>
-    <h2>living life with Lucy</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">art</h1>
+    <p class="post-description">A growing collection of my favorite art projects.</p>
+  </header>
+
+  <article>
+    <div id="image-cover-modal" class="image-cover-modal">
+  <img id="image-cover-image" class="image-cover-modal-content">
+  <div id="image-cover-caption"></div>
+</div>
+<script>
+// Get the DOM
+var modal = document.getElementById('image-cover-modal');
+var modalImg = document.getElementById("image-cover-image");
+var captionText = document.getElementById("image-cover-caption");
+var span = document.getElementsByClassName("image-cover-close")[0];
+
+// When the user clicks on <span> (x), close the modal
+modal.onclick = function() {
+    this.classList.remove("model-shown");
+}
+
+var i;
+for (i = 0; i < document.images.length; i++) {
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.images[i];
+
+    img.onclick = function(){
+        modal.classList.add("model-shown");
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+}
+</script>
+
+    <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded " src="/assets/img/angel1.jpeg" alt="" title="example image" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded " src="/assets/img/angel2.jpeg" alt="" title="example image" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded " src="/assets/img/angel3.jpeg" alt="" title="example image" />
+    </div>
+</div>
+
+<div class="caption">
+    A sculpture of an angel made with stoneware clay.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded " src="/assets/img/yunior1.jpeg" alt="" title="example image" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded " src="/assets/img/yunior2.jpeg" alt="" title="example image" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded " src="/assets/img/yunior3.jpeg" alt="" title="example image" />
+    </div>
+</div>
+
+<div class="caption">
+    A superhero made of stoneware clay. Based on Yunior from the "The Brief Wondrous Life of Oscar Wao."
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded " src="/assets/img/search1.jpeg" alt="" title="example image" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded " src="/assets/img/search2.jpeg" alt="" title="example image" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded " src="/assets/img/search3.jpeg" alt="" title="example image" />
+    </div>
+</div>
+
+<div class="caption">
+    Stoneware face.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded " src="/assets/img/rock.jpg" alt="" title="example image" />
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded " src="/assets/img/rock1.jpg" alt="" title="example image" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded " src="/assets/img/rock2.jpg" alt="" title="example image" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded " src="/assets/img/rock3.jpg" alt="" title="example image" />
+    </div>
+</div>
+
+<div class="caption">
+    Stoneware lantern. Also glazed.
+</div>
 
 
-  Hmmm...it's a bit deserted in here. Why not try another page?
-  <div class="row">
-      <div class="col-sm mt-3 mt-md-0">
-          <img class="img-fluid rounded" src="/assets/img/cactus.png" alt=""/>
-      </div>
-  </div>
-
-
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/twitter/">Twitter</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2018/distill/">a distill-style blog post</a></h3>
-        <p class="post-meta">December 22, 2018</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-  </ul>
-
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blank">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blank - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blank - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
-
-
+  </article>
 
 </div>
 
